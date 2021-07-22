@@ -1,0 +1,21 @@
+{
+  "name": "polawnco",
+  "repo": "davidwpe/polawnco",
+  "region": "US-C",
+  "environments": [
+    {
+      "name": "Production",
+      "id": "n9h5agsq80gbr6vuo8gw28wl",
+      "branch": "main",
+      "wp_environment_name": "polawnco",
+      "env_variables": [
+        {
+          "key": "WORDPRESS_URL",
+          "value": "http://polawnco.wpengine.com",
+          "key": "WP_HEADLESS_SECRET",
+          "value": "6ad16dc3-663a-47a8-ba63-8e6e55f0f229"
+        }
+      ]
+    }
+  ]
+}
